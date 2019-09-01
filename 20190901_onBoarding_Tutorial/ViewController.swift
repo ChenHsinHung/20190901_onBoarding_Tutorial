@@ -13,6 +13,11 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
+    
+//        UserDefaults.standard.set(true, forKey: "Islaunched")
+        
+          UserDefaults.standard.set(false, forKey: "Islaunched")  // false 再執行一次，就可以看到 Onboarding 展示
+        
     }
 
 

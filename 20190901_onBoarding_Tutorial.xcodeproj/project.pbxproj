@@ -12,6 +12,10 @@
 		F8FC215C231C129300F81445 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F8FC215A231C129300F81445 /* Main.storyboard */; };
 		F8FC215E231C129500F81445 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F8FC215D231C129500F81445 /* Assets.xcassets */; };
 		F8FC2161231C129500F81445 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F8FC215F231C129500F81445 /* LaunchScreen.storyboard */; };
+		F8FC2169231C192700F81445 /* Onboarding.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F8FC2168231C192700F81445 /* Onboarding.storyboard */; };
+		F8FC216B231C1B4C00F81445 /* Onboardingp1ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8FC216A231C1B4C00F81445 /* Onboardingp1ViewController.swift */; };
+		F8FC216D231C1B6800F81445 /* Onboardingp2ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8FC216C231C1B6800F81445 /* Onboardingp2ViewController.swift */; };
+		F8FC216F231C1B8A00F81445 /* Onboardingp3ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8FC216E231C1B8A00F81445 /* Onboardingp3ViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +26,10 @@
 		F8FC215D231C129500F81445 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F8FC2160231C129500F81445 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F8FC2162231C129500F81445 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F8FC2168231C192700F81445 /* Onboarding.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Onboarding.storyboard; sourceTree = "<group>"; };
+		F8FC216A231C1B4C00F81445 /* Onboardingp1ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Onboardingp1ViewController.swift; sourceTree = "<group>"; };
+		F8FC216C231C1B6800F81445 /* Onboardingp2ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Onboardingp2ViewController.swift; sourceTree = "<group>"; };
+		F8FC216E231C1B8A00F81445 /* Onboardingp3ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Onboardingp3ViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,7 +64,11 @@
 			children = (
 				F8FC2156231C129300F81445 /* AppDelegate.swift */,
 				F8FC2158231C129300F81445 /* ViewController.swift */,
+				F8FC216A231C1B4C00F81445 /* Onboardingp1ViewController.swift */,
+				F8FC216E231C1B8A00F81445 /* Onboardingp3ViewController.swift */,
+				F8FC216C231C1B6800F81445 /* Onboardingp2ViewController.swift */,
 				F8FC215A231C129300F81445 /* Main.storyboard */,
+				F8FC2168231C192700F81445 /* Onboarding.storyboard */,
 				F8FC215D231C129500F81445 /* Assets.xcassets */,
 				F8FC215F231C129500F81445 /* LaunchScreen.storyboard */,
 				F8FC2162231C129500F81445 /* Info.plist */,
@@ -125,6 +137,7 @@
 				F8FC2161231C129500F81445 /* LaunchScreen.storyboard in Resources */,
 				F8FC215E231C129500F81445 /* Assets.xcassets in Resources */,
 				F8FC215C231C129300F81445 /* Main.storyboard in Resources */,
+				F8FC2169231C192700F81445 /* Onboarding.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -137,6 +150,9 @@
 			files = (
 				F8FC2159231C129300F81445 /* ViewController.swift in Sources */,
 				F8FC2157231C129300F81445 /* AppDelegate.swift in Sources */,
+				F8FC216D231C1B6800F81445 /* Onboardingp2ViewController.swift in Sources */,
+				F8FC216B231C1B4C00F81445 /* Onboardingp1ViewController.swift in Sources */,
+				F8FC216F231C1B8A00F81445 /* Onboardingp3ViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

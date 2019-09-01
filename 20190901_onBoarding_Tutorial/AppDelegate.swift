@@ -16,6 +16,38 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
+        
+        
+        let launchedBeforeFlag = UserDefaults.standard.bool(forKey: "Islaunched")
+        
+        
+        
+        self.window = UIWindow(frame: UIScreen.main.bounds)
+        let launchedBeforeSB = UIStoryboard(name: "Onboarding", bundle: nil)
+        let mainSB = UIStoryboard(name: "Main", bundle: nil)
+        
+        var vc : UIViewController
+        
+        if launchedBeforeFlag{
+            
+            vc = mainSB.instantiateInitialViewController()!
+            
+//            if let lvc = mainSB.instantiateInitialViewController() {
+//                vc = lvc
+//            }
+            
+        }else{
+            
+            vc = launchedBeforeSB.instantiateViewController(withIdentifier: "pageidp1")
+            
+        }
+        
+//        UserDefaults.standard.set(true, forKey: "Islaunched")
+        
+        
+        self.window?.rootViewController = vc
+        window?.makeKeyAndVisible()
+        
         return true
     }
 
